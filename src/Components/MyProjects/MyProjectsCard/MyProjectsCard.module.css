@@ -1,0 +1,48 @@
+.cardProject{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.imgProject{
+  border-radius: 1rem 1rem 0 0;
+width: 80%;
+height: 60vh;
+transition: filter 1s;
+cursor: pointer;
+}
+.imgProject:hover{
+  filter: brightness(0.8);
+}
+  .buttonsProject{
+  width: 80%;
+  height: 10vh;
+ font-size: 2rem;
+ display: inline-flex;
+ justify-content: space-around;
+display: flex;
+align-items: center;
+}
+.nameProject{
+  border-radius: 0.5rem 0;
+  color: var(--green-1);
+  text-decoration: none;
+  padding: 0.5rem 3rem;
+  border: 2px solid var(--green-3);
+  transition: background-color 1s, color 1s;
+}
+.nameProject:hover{
+  background-color: var(--green-3);
+  color: var(--green-4)
+}
+.gitHubProject{
+  border-radius: 0 0.5rem;
+  padding: 0.5rem 4rem;
+  color: #fff;
+  border: 2px solid var(--green-1);
+  text-decoration: none;
+  transition: background-color 1s;
+}
+.gitHubProject:hover{
+  background-color: var(--green-1);
+}

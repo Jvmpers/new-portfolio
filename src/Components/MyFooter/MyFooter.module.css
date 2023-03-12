@@ -1,0 +1,52 @@
+@import url("../../index.css");
+.conteiner{
+  background-color: var(--green-0);
+  display: flex;
+  padding: 3rem 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.image_hedgehog{
+  width: 30%;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+
+.div_{
+  width: 30%;
+}
+.div_social{
+  width: 30%;
+}
+.first_line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.title_contact{
+  font-size: 2rem;
+  color: var(--green-3);
+  transition: color 0.5s;
+}
+.title_contact:hover{
+  color: #fff;
+}
+.icon{
+  font-size: 3rem;
+  color: var(--green-3);
+  transition: color 0.5s;
+}
+.icon:hover{
+  color: #fff;
+}
+.div_link{
+  text-align: right;
+}
+.link{
+  color: var(--green-3);
+  transition: color 0.5s;
+}
+.link:hover{
+  color: #fff;
+}

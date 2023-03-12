@@ -1,0 +1,78 @@
+@import url(../../index.css);
+
+.sectionMyTech{
+  background: var(--green-1);
+  
+}
+.titleMyTech{
+color: #fff;
+font-size: 3rem;
+margin-bottom:3rem;
+}
+.techs{
+  color: var(--green-4);
+  font-size: 2rem;
+  margin: 0 10rem;
+}
+
+.titleTech{
+  display: inline-flex;
+  padding-right: 1rem;
+}
+.conteiner_tech{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.name{
+  font-size: 1.5rem;
+}
+.experience{
+  font-size: 1.3rem;
+  color: var(--green-4);
+}
+.conteiner_icon{
+  width: 50%;
+  display: flex;
+justify-content: center;
+}
+.icon{
+  height:  3rem;
+  width:auto;
+}
+.listTechs{
+  color: #fff;
+  overflow: hidden; 
+  height: 0px;
+  transition: height 0.5s ease-in-out;
+  display: flex; 
+  flex-wrap: wrap;
+}
+.show_lang{
+  height: 5rem;
+  /* transition: max-height 0.5s ease-out; */
+  }
+.show_tech{
+height: 12rem;
+/* transition: max-height 0.5s ease-out; */
+}
+
+
+.angle{
+  display: inline-flex;
+  cursor: pointer;
+  transition: all 0.2s  ease-in-out;
+}
+
+.up {
+  transform: rotate(180deg);
+}
+.down {
+  transform: rotate(0deg);
+}

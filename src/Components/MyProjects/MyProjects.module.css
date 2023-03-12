@@ -1,0 +1,90 @@
+.sectionMyProjects{
+  background: linear-gradient(to top, var(--green-4), var(--green-1));
+   height: auto;
+}
+
+.myprojectsContent{
+  margin: 0 10rem;
+  display: flex;
+  flex-direction: column;
+
+} 
+.titleMyprojects{
+  color: #fff;
+  padding-top: 10rem;
+  font-size: 3rem;
+}
+.listProjects{  
+
+}
+
+.carouselProjects{
+  width: 100%;
+  display: flex;
+  height: 70vh;
+  margin: 3rem 0;
+}
+
+.sliderProjects{
+  width: 100%; 
+  height: auto;
+
+}
+
+
+@-moz-keyframes flicker{  
+  from, to {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes flicker {  
+  from, to {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flicker {  
+  from, to {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.slideProject{
+}
+.button{
+  /* display: none; */
+  width: 10%;
+/*   height: 0; */
+  font-size: 4rem;
+  background: transparent;
+  border: none;
+  color: #fff;
+  transition:opacity 2s ;
+  animation: flicker 2s alternate infinite;
+  -webkit-animation:flicker 2s alternate infinite;
+}
+.left{
+text-align: left;
+}
+.right{
+text-align: right;
+}
+.button:hover{
+  color:var(--green-1)
+}
+.buttonNext:hover{
+
+}
+.carouselProjectsSmall{
+
+}
+
